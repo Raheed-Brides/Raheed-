@@ -190,7 +190,7 @@ body {
     .icons {
       display: flex;
       justify-content: center;
-      gap: 20px;
+      gap: 10px;
       flex-wrap: wrap;
     }
 
@@ -500,4 +500,21 @@ text-align: center;
   .dot.active {
     background-color: #717171;
   }
+
+
+    .lead2 {
+    display: none;
+  }
+
+.lead1
+{
+    width: 100%;
+    text-align: center;
+   margin-left: 40px;
 }
+
+.image-box{
+  margin: auto;
+}
+}
+
