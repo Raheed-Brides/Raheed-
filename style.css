@@ -517,8 +517,19 @@ text-align: center;
   margin: auto;
 }
 
-.icons{
-       gap: 5px;
-}
+
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* تصغير المسافة بين الأيقونات */
+    justify-items: center;
+    padding: 10px 100px;
+  }
+  .icons img {
+    width: 70px;
+    height: 70px;
+  
+  }
+
 }
 
