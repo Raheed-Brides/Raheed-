@@ -516,5 +516,9 @@ text-align: center;
 .image-box{
   margin: auto;
 }
+
+.icons{
+       gap: 10px;
+}
 }
 
