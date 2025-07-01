@@ -82,27 +82,37 @@ text-align: center;
     font-family: 'Great Vibes', cursive;
  
 }
-
 @media (max-width: 768px) {
-  .hero-text h1 {
-    font-size: 1.5rem;
-
+  .hero {
+    position: relative;
+    width: 100%; /* make sure hero spans full width */
+    height: 80vh; /* adjust height as needed */
+    background-image: url('images/3L5A1785.png'); /* double-check path */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* this makes it fully fill */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center text horizontally */
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 1rem;
+    text-align: center;
   }
 
-  .hero {
-  position: relative;
-  height: 100vh;
-  background: url('3L5A1785.png') no-repeat center center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border-bottom-left-radius: 15%;
-  border-bottom-right-radius: 15%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .hero-text h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0 1rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
 }
 
-}
 
 
 /* style.css */
