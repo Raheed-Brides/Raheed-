@@ -83,23 +83,19 @@ text-align: center;
  
 }
 @media (max-width: 768px) {
-  .hero {
-    position: relative;
-    width: 100%; /* make sure hero spans full width */
-    height: 80vh; /* adjust height as needed */
-    background-image: url('images/3L5A1785.png'); /* double-check path */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; /* this makes it fully fill */
-    display: flex;
-    align-items: center;
-    justify-content: center; /* center text horizontally */
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 0 1rem;
-    text-align: center;
-  }
+.hero {
+  width: 100%;
+  height: 100vh; /* MUST have height */
+  background-image: url('images/3L5A1785.png'); /* make sure this path is correct */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 
   .hero-text h1 {
     font-size: 1.5rem;
