@@ -86,7 +86,22 @@ text-align: center;
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 1.5rem;
+    
   }
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('image/3L5A1785.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 }
 
 
