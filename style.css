@@ -326,3 +326,11 @@ text-align: center;
     iframe{
         width: 100%;
     }
+
+
+   @media (max-width: 400px) {
+  .contact-icons .icons a {
+    flex: 0 0 28%; /* slight shrink on very small screens */
+  }
+}
+
