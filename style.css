@@ -92,7 +92,7 @@ text-align: center;
   .hero {
   position: relative;
   height: 100vh;
-  background: url('image/3L5A1785.png') no-repeat center center;
+  background: url('3L5A1785.png') no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: center;
