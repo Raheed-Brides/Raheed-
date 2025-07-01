@@ -35,7 +35,7 @@ background-color: #d5d4d4;
 .hero {
   position: relative;
   height: 100vh;
-  background: url('3L5A1785.png');
+  background: url('image/3L5A1785.png');
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -86,10 +86,10 @@ text-align: center;
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 1.5rem;
-    
+
   }
 
-.hero {
+  .hero {
   position: relative;
   height: 100vh;
   background: url('image/3L5A1785.png') no-repeat center center;
